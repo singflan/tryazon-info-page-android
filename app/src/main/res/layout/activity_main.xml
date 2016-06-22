@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.tryazon.tryazon_info_page.MainActivity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:src="@drawable/tryazon"
+        android:background="@android:color/white"
+        android:paddingBottom="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: (417) 551-4049"
+        android:paddingBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: 2201 W Colton, Ozark, MO 65721"
+        android:paddingBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours of Operation: 8am - 5pm CST"
+        android:paddingBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website: http://www.tryazon.com/"
+        android:paddingBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: info@tryazon.com"
+        android:paddingBottom="25dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We bring new and innovative products and brands for you to experience first hand. What better way to get to know a product than using it, smelling it or tasting it?"
+        android:paddingBottom="5dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:src="@drawable/summer_party"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:paddingTop="26dp"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--/>-->
+
+
+
+</LinearLayout>
